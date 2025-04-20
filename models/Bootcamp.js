@@ -98,4 +98,4 @@ const bootcampSchema = new mongoose.Schema({
         default: Date.now
       },
 })
-module.exports=moongose.model('Bootcamp',bootcampSchema)
+module.exports=mongoose.model('Bootcamp',bootcampSchema)
